@@ -86,7 +86,7 @@ Our application consists of three main layers:
 
 **Data Layer**
 
-This layer is the lowest layer and is responsible for retrieving raw data from external sources such as a databases, APIs, and more. Packages in the data layer generally should not depend on any UI and can be reused and even published on [pub.dev](https://pub.dev) as a standalone package. In this example, our data layer consists of the `todos_api` and `local_storage_todos_api` packages.
+This layer is the lowest layer and is responsible for retrieving raw data from external sources such as databases, APIs, and more. Packages in the data layer generally should not depend on any UI and can be reused and even published on [pub.dev](https://pub.dev) as a standalone package. In this example, our data layer consists of the `todos_api` and `local_storage_todos_api` packages.
 
 **Domain Layer**
 
